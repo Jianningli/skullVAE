@@ -1,6 +1,6 @@
 # skull_vae
 
-![alt text](https://github.com/Jianningli/skullvae/blob/master/assests/small_beta_output.png)
+![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/small_beta_output.png)
 
 
 
