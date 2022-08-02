@@ -1,4 +1,4 @@
-# skull_vae
+### Training β-VAE by Aggregating a Learned Gaussian Posterior with a Decoupled Decoder
 
 
 ```Python
@@ -30,3 +30,18 @@ python AggreegateVAE.py
 
 
 check out our other skull project with MONAI at [SkullRec](https://github.com/Jianningli/research-contributions/tree/master/SkullRec)
+
+References:
+
+Dataset
+```
+@inproceedings{li2020dataset,
+  title={Dataset descriptor for the AutoImplant cranial implant design challenge},
+  author={Li, Jianning and Egger, Jan},
+  booktitle={Cranial Implant Design Challenge},
+  pages={10--15},
+  year={2020},
+  organization={Springer}
+}
+```
+Methods
