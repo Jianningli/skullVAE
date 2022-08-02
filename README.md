@@ -9,7 +9,7 @@ zf a→co = zts + γDEVf a
 
 
 
-(1)training the initial VAE using beta=100 or beta=0.0001
+(1) train the initial VAE using beta=100 or beta=0.0001
 ```Python
 python monaiSkullVAE.py --phase train
 #python monaiSkullVAE.py --phase test
