@@ -183,7 +183,7 @@ dice_metric = DiceMetric(include_background=True, reduction="mean")
 max_epochs = 200
 
 
-# beta=0.00001
+# beta=0.0001
 beta = 100
 
 
