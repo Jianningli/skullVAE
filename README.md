@@ -28,9 +28,10 @@ python AggreegateVAE.py
 ```
 
 ## Dataset
+Download the dataset [here](https://files.icg.tugraz.at/f/d06d433bd5f74f29ab8c/?dl=1).  
+The dataset is extended from the [AutoImplant Challenge](https://autoimplant2021.grand-challenge.org/).
 
-[Here](https://files.icg.tugraz.at/f/d06d433bd5f74f29ab8c/?dl=1)
-
+![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/dataset.png)
 
 check out our other skull project with MONAI at [SkullRec](https://github.com/Jianningli/research-contributions/tree/master/SkullRec)
 
