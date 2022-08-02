@@ -45,3 +45,12 @@ Dataset
 }
 ```
 Methods
+```
+@inproceedings{li2022training,
+  title={Training β-VAE by Aggregating a Learned Gaussian Posterior with a Decoupled Decoder},
+  author={Li, Jianning and others},
+  booktitle={Medical Applications with Disentanglements (MAD)},
+  year={2022},
+  organization={Springer}
+}
+```
