@@ -61,4 +61,4 @@ Methods
 }
 ```
 ---
-contact: feel free to contact the jianningli.me[AT]gmail[dot]com, if you have questions about the codes and paper
+contact: feel free to contact jianningli.me[AT]gmail[dot]com, if you have questions about the codes and paper
