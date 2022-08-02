@@ -34,7 +34,7 @@ There are 100 healthy skulls, 100 skulls with facial and craial defects:
 
 ![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/dataset.png)
 
-check out our other skull-reconstruction project with MONAI at [SkullRec](https://github.com/Jianningli/research-contributions/tree/master/SkullRec)
+check out our other skull-reconstruction project with MONAI at [SkullRec](https://github.com/Project-MONAI/research-contributions/tree/main/SkullRec)
 
 ---
 References:
