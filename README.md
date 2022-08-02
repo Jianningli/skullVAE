@@ -30,10 +30,11 @@ python AggreegateVAE.py
 ## Dataset
 Download the dataset [here](https://files.icg.tugraz.at/f/d06d433bd5f74f29ab8c/?dl=1).  
 The dataset is extended from the [AutoImplant Challenge](https://autoimplant2021.grand-challenge.org/).
+There are 100 healthy skulls, 100 skulls with facial and craial defects:
 
 ![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/dataset.png)
 
-check out our other skull project with MONAI at [SkullRec](https://github.com/Jianningli/research-contributions/tree/master/SkullRec)
+check out our other skull-reconstruction project with MONAI at [SkullRec](https://github.com/Jianningli/research-contributions/tree/master/SkullRec)
 
 ---
 References:
