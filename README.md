@@ -1,6 +1,6 @@
 ### Training β-VAE by Aggregating a Learned Gaussian Posterior with a Decoupled Decoder
 
-
+## Code
 ```Python
 zcr→co = zts + γDEVcr
 zfa→co = zts + γDEVfa
@@ -27,6 +27,9 @@ python VAEDecoderRetrain.py --phase train
 python AggreegateVAE.py
 ```
 
+## Dataset
+
+[Here](https://files.icg.tugraz.at/f/d06d433bd5f74f29ab8c/?dl=1)
 
 
 check out our other skull project with MONAI at [SkullRec](https://github.com/Jianningli/research-contributions/tree/master/SkullRec)
