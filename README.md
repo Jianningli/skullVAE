@@ -1,5 +1,10 @@
 # skull_vae
 
+
+```Python
+zcr→co = zts + γDEVcr
+zf a→co = zts + γDEVf a
+```
 ![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/small_beta_output.png)
 
 
