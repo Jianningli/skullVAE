@@ -34,7 +34,7 @@ There are 100 healthy skulls, 100 skulls with facial and craial defects:
 
 ![Dataset](https://github.com/Jianningli/skullVAE/blob/main/figs/dataset.png)
 
-
+Latent Distributions of the skull variables
 ![Latent Distributions](https://github.com/Jianningli/skullVAE/blob/main/figs/latent_dist_new.png)
 
 
