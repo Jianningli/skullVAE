@@ -251,10 +251,9 @@ if __name__ == '__main__':
     facial=latentVar[100:200]    
     complete=latentVar[200:300]   
     
-    # only to use to header 'h' to save
-    # the output to nrrd (note: 'nifty' and 'nrrd')
-    # use different coordinate systems.
-
+    # use the header 'h' to save
+    # the output to nrrd 
+    
     temp,h=nrrd.read('000.nrrd')
 
 
