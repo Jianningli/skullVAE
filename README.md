@@ -46,8 +46,6 @@ Latent Distributions of the skull variables
 ![Latent Distributions](https://github.com/Jianningli/skullVAE/blob/main/figs/latent_dist_new.png)
 
 
-check out our other skull-reconstruction project with MONAI at [SkullRec](https://github.com/Project-MONAI/research-contributions/tree/main/SkullRec)
-
 ---
 References:
 
@@ -73,4 +71,5 @@ Methods
 }
 ```
 ---
-contact: feel free to contact jianningli.me[AT]gmail[dot]com, if you have questions about the codes and paper
+:star: Check out our other skull-reconstruction project with MONAI at [SkullRec](https://github.com/Project-MONAI/research-contributions/tree/main/SkullRec)
+Contact :email: for questions about the codes, feel free to contact jianningli.me[AT]gmail[dot]com
