@@ -73,4 +73,4 @@ Methods
 ---
 :star: Check out our other skull-reconstruction project with MONAI at [SkullRec](https://github.com/Project-MONAI/research-contributions/tree/main/SkullRec)
 
-Contact :email: for questions about the codes, feel free to contact jianningli.me[AT]gmail[dot]com
+:email: For questions about the codes, feel free to contact jianningli.me@gmail.com
