@@ -1,5 +1,14 @@
 ### Training β-VAE by Aggregating a Learned Gaussian Posterior with a Decoupled Decoder
 
+## Main Take Away Message
+
+The reconstruction (dice) loss does not decrease given a large beta in beta-VAE(e.g., beta=100) 
+![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/vae_loss_1200_epoch.png)
+
+The latent variables from beta=100 can be used for reconstruction by using an independent decoder, and the reconstruction (dice) loss can decrease to a desirable small value.
+![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/vae_loss_plots.png)
+
+
 ## Code
 ```Python
 zcr→co = zts + γDEVcr
@@ -43,7 +52,7 @@ check out our other skull-reconstruction project with MONAI at [SkullRec](https:
 ---
 References:
 
-Dataset
+Dataset (SkullFix)
 ```
 @inproceedings{li2020dataset,
   title={Dataset descriptor for the AutoImplant cranial implant design challenge},
