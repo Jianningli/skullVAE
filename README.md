@@ -8,7 +8,7 @@
 * The latent variables from beta=100 can be used for reconstruction by using an independent decoder, and the reconstruction (dice) loss can decrease to a desirable small value.
 ![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/vae_loss_plots.png)
 
-* The encoder of the VAE trained using a large beta and the independently trained decoder can be aggragated to form a new VAE that satisfied both the latent Gaussian assumption and can produce good reconstruction.
+* The encoder of the VAE trained using a large beta and the independently trained decoder can be aggragated to form a new VAE that satisfies the latent Gaussian assumption and can produce good reconstruction.
 
 ## Code
 ```Python
