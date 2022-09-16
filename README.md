@@ -32,7 +32,7 @@ python VAEDecoderRetrain.py --phase train
 ```
 the decoder decoupled 'newDecoder' takes as input the latent variables 'z' from Step (1) and outputs a reconstruction, using only the reconstruction (dice) loss
 ```Python
-# model is the trained VAE with beta=100. z is the latent variables.
+# model is the trained VAE with beta=100. z is the latent variable corresponding to an 'input'.
 _,_,_,z=model.forward(inputs)
 z=torch.tensor(z.cpu().detach().numpy())
 # 'newDecoder' is the decoupled decoder
