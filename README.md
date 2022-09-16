@@ -25,7 +25,7 @@ python monaiSkullVAE.py --phase train
 #python monaiSkullVAE.py --phase test
 ```
 
-(2) train a decoder using the latent variables from the previously trained VAE
+(2) train a decoder using the latent variables from the previously trained VAE (beta=100)
 ```Python
 python VAEDecoderRetrain.py --phase train
 #python VAEDecoderRetrain.py --phase test
