@@ -31,7 +31,7 @@ python VAEDecoderRetrain.py --phase train
 #python VAEDecoderRetrain.py --phase test
 ```
 
-(3) make predictions with the aggregated VAE (encoder from beta=100 + decoupled decoder)  
+(3) make predictions using the aggregated VAE (encoder from beta=100 + decoupled decoder)  
 
 ```Python
 python AggreegateVAE.py
