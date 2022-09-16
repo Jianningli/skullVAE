@@ -30,10 +30,12 @@ python monaiSkullVAE.py --phase train
 python VAEDecoderRetrain.py --phase train
 #python VAEDecoderRetrain.py --phase test
 ```
-the decoder 'newDecoder' takes as input the latent variables 'z' from Step (1) and outputs a reconstruction, using only the reconstruction (dice) loss
+the decoder decoupled 'newDecoder' takes as input the latent variables 'z' from Step (1) and outputs a reconstruction, using only the reconstruction (dice) loss
 ```Python
+# model is the trained VAE with beta=100. z is the latent variables.
 _,_,_,z=model.forward(inputs)
 z=torch.tensor(z.cpu().detach().numpy())
+# 'newDecoder' is the decoupled decoder
 recon_batch = newDecoder(z)
 ```
 (3) make predictions using the aggregated VAE (encoder from beta=100 + decoupled decoder)  
