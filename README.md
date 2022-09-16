@@ -32,7 +32,7 @@ python VAEDecoderRetrain.py --phase train
 ```
 the decoder 'newDecoder' takes as input the latent variables from Step (1) and outputs a reconstruction
 ```Python
- _,_,_,z=model.forward(inputs)
+_,_,_,z=model.forward(inputs)
 z=torch.tensor(z.cpu().detach().numpy())
 recon_batch = newDecoder(z)
 ```
