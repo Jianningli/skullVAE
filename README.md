@@ -2,7 +2,8 @@
 
 ## Main Take Away Message
 
-* The reconstruction (Dice) loss does not decrease given a large beta in a regular beta-VAE(e.g., beta=100) 
+* The reconstruction (Dice) loss does not decrease given a large beta in a regular beta-VAE(e.g., beta=100). Note: the initial decrease is due to random initialization of the network before training. The loss does not decrease to a desired small value, as in the following curve. 
+
 ![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/vae_loss_1200_epoch.png)
 
 * The latent variables from beta=100 can be used for reconstruction by using an independent decoder, and the reconstruction (dice) loss can decrease to a desirable small value.
