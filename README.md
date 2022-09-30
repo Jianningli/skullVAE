@@ -1,6 +1,7 @@
 ### [Training β-VAE by Aggregating a Learned Gaussian Posterior with a Decoupled Decoder](https://arxiv.org/abs/2209.14783)
 
 ## Main Take Away Message
+* Unsupervised skull shape completion using a variational autoencoder.
 
 * The reconstruction (Dice) loss does not decrease given a large beta in a regular beta-VAE(e.g., beta=100). Note: the initial decrease is due to random initialization of the network before training. The loss does not decrease to a desired small value, as in the following curve. 
 
