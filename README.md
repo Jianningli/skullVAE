@@ -1,4 +1,4 @@
-### Training β-VAE by Aggregating a Learned Gaussian Posterior with a Decoupled Decoder
+### [Training β-VAE by Aggregating a Learned Gaussian Posterior with a Decoupled Decoder](https://arxiv.org/abs/2209.14783)
 
 ## Main Take Away Message
 
@@ -69,12 +69,11 @@ Dataset (SkullFix)
 ```
 Methods
 ```
-@inproceedings{li2022training,
+@article{li2022training,
   title={Training β-VAE by Aggregating a Learned Gaussian Posterior with a Decoupled Decoder},
-  author={Li, Jianning and others},
-  booktitle={Medical Applications with Disentanglements (MAD)},
-  year={2022},
-  organization={Springer}
+  author={Li, Jianning and Fragemann, Jana and Ahmadi, Seyed-Ahmad and Kleesiek, Jens and Egger, Jan},
+  journal={arXiv preprint arXiv:2209.14783},
+  year={2022}
 }
 ```
 ---
