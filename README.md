@@ -51,7 +51,7 @@ Download the dataset [here](https://files.icg.tugraz.at/f/d06d433bd5f74f29ab8c/?
 
 ![Dataset](https://github.com/Jianningli/skullVAE/blob/main/figs/dataset.png)
 
-Latent Distributions of the skull variables
+Latent Distributions of the skull variables (Dimension of latent variables reduced from 32 to 2 for illustrative purposes)
 ![Latent Distributions](https://github.com/Jianningli/skullVAE/blob/main/figs/latent_dist_new.png)
 
 
