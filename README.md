@@ -3,7 +3,7 @@
 ## Main Take Away Message
 * Unsupervised skull shape completion using a variational autoencoder ([poster](http://jianningli.me/poster/MAD_Poster.pdf)).
 
-* The reconstruction (Dice) loss does not decrease given a large beta in a regular beta-VAE(e.g., beta=100). Note: the initial decrease is due to random initialization of the network before training. The loss does not decrease to a desired small value, as in the following curve. 
+* The reconstruction (Dice) loss does not decrease given a large beta in a regular beta-VAE(e.g., beta=100). Note: the initial decrease is due to random initialization of the network before training. The loss does not decrease to a desired small value, as in the following curve in red. 
 
 ![alt text](https://github.com/Jianningli/skullVAE/blob/main/figs/vae_loss_1200_epoch.png)
 
